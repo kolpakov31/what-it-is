@@ -1,0 +1,17 @@
+.add-button-block {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+.add-button-block .button {
+    color: white;
+    display: flex;
+    font-size: 130px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 100px;
+    background-color: rgb(33, 39, 184);
+    width: 200px;
+    height: 200px;
+}

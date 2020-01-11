@@ -1,0 +1,164 @@
+body {
+    background-color: #C4C4C4;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+
+}
+
+.top div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    background: #AF5454;
+    width: 16.5%;
+}
+
+.top-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 35px;
+    margin-top: 55px;
+    color: white;
+    font-size: 20px;
+
+}
+
+.top-heading .left {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6776C4;
+    text-align: center;
+    width: 450px;
+    height: 60px;
+}
+
+.top-heading .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 450px;
+    height: 60px;
+    background-color: #A1A41C;
+
+}
+
+.circle-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.circle-center .circle {
+    background: #D1951F;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+}
+
+.top-circle {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.bottom-circle {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+
+}
+
+.footer div {
+
+    display: flex;
+    justify-content: center;
+    font-size: 38px;
+    background: #406951;
+    width: 16.5%;
+
+}
+
+.footer-heading {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 35px;
+    color: white;
+    font-size: 20px;
+
+}
+
+.footer-heading .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A1A41C;
+    text-align: center;
+    width: 450px;
+    height: 60px;
+
+}
+
+.footer-heading .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6776C4;
+    text-align: center;
+    width: 450px;
+    height: 60px;
+
+}
+
+.footer-down {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.font {
+    /*
+    Подключили шрифт
+    */
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

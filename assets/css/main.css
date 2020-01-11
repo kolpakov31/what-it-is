@@ -1,0 +1,93 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    background: url("../img/bab.jpg") no-repeat center top / cover;
+    height: 643px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logo-right a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.question {
+
+    position: fixed;
+    color: white;
+    margin-top: 150px;
+    margin-left: 180px;
+    font-size: 75px;
+
+}
+
+.hint {
+    position: fixed;
+    color: white;
+    margin-top: 227px;
+    margin-left: 180px;
+    font-size: 20px;
+}
+
+.buttons {
+    position: fixed;
+
+    margin-top: 450px;
+    margin-left: 159px;
+    font-size: 25px;
+    color: white;
+}
+
+.buttons a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px;
+
+    background: #b62d48;
+
+    border-radius: 18px;
+
+}
+
+.holder {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    background: #74985e;
+    margin-top: 320px;
+    margin-left: 890px;
+    border-radius: 20px;
+
+}
+
+.block {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    display: none;
+    border-radius: 15px;
+
+}
+
+.holder:hover .block {
+    display: block;
+}
+
+/* Начало выезжающего окна */
